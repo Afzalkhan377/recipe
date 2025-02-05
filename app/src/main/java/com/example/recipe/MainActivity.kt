@@ -59,7 +59,7 @@ fun Recipe(modifier: Modifier = Modifier) {
                     )
                 }
                 //the line in the app
-                Divider(color = Color.Black, thickness = 4.dp)
+                HorizontalDivider(thickness = 4.dp, color = Color.Black)
                 //column with ingredients
                 Column(modifier = Modifier.fillMaxWidth().padding(20.dp)) {
                     Text(text = "Ingredients", fontSize = 18.sp, fontWeight = FontWeight.Bold)
